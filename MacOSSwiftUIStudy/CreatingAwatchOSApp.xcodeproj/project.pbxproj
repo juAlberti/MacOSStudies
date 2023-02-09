@@ -166,7 +166,6 @@
 		C20D782524B6CE82002E7AEA /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		C253FE7224EF1B630048C8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2A4F1EC24C3CAA100A77EA9 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		C2AC4EA124DE2966005E019B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C2C5839324DB6A2900DD0019 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		C2D89DD424B8F7840096C79B /* WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D89DD824B8F7850096C79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -260,7 +259,6 @@
 		C20D77E124B665D7002E7AEA = {
 			isa = PBXGroup;
 			children = (
-				C2AC4EA124DE2966005E019B /* README.md */,
 				C20D77EC24B665D7002E7AEA /* Landmarks */,
 				C2D89DD524B8F7840096C79B /* WatchLandmarks */,
 				C2D89DE124B8F7850096C79B /* WatchLandmarks Extension */,

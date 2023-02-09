@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07DDC97029934A6A0030E5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDC96F29934A6A0030E5CB /* AppDelegate.swift */; };
-		07DDC97229934A6A0030E5CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDC97129934A6A0030E5CB /* ViewController.swift */; };
-		07DDC97429934A6D0030E5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DDC97329934A6D0030E5CB /* Assets.xcassets */; };
-		07DDC97729934A6D0030E5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DDC97529934A6D0030E5CB /* Main.storyboard */; };
+		079253FD2995A705002F0C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079253FC2995A705002F0C74 /* AppDelegate.swift */; };
+		079253FF2995A705002F0C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079253FE2995A705002F0C74 /* ViewController.swift */; };
+		079254012995A706002F0C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079254002995A706002F0C74 /* Assets.xcassets */; };
+		079254042995A706002F0C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079254022995A706002F0C74 /* Main.storyboard */; };
+		079254122995A8BF002F0C74 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079254112995A8BF002F0C74 /* Fact.swift */; };
+		079254142995A8DB002F0C74 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079254132995A8DB002F0C74 /* main.swift */; };
+		079254162995A8F9002F0C74 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079254152995A8F9002F0C74 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07DDC96C29934A6A0030E5CB /* TextTranformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTranformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07DDC96F29934A6A0030E5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07DDC97129934A6A0030E5CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07DDC97329934A6D0030E5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07DDC97629934A6D0030E5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07DDC97829934A6D0030E5CB /* TextTranformer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextTranformer.entitlements; sourceTree = "<group>"; };
+		079253F92995A705002F0C74 /* ViewCodeAppKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeAppKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079253FC2995A705002F0C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079253FE2995A705002F0C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		079254002995A706002F0C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079254032995A706002F0C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079254052995A706002F0C74 /* ViewCodeAppKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ViewCodeAppKit.entitlements; sourceTree = "<group>"; };
+		079254112995A8BF002F0C74 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		079254132995A8DB002F0C74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		079254152995A8F9002F0C74 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07DDC96929934A6A0030E5CB /* Frameworks */ = {
+		079253F62995A705002F0C74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,70 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07DDC96329934A6A0030E5CB = {
+		079253F02995A705002F0C74 = {
 			isa = PBXGroup;
 			children = (
-				07DDC96E29934A6A0030E5CB /* TextTranformer */,
-				07DDC96D29934A6A0030E5CB /* Products */,
+				079253FB2995A705002F0C74 /* ViewCodeAppKit */,
+				079253FA2995A705002F0C74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07DDC96D29934A6A0030E5CB /* Products */ = {
+		079253FA2995A705002F0C74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07DDC96C29934A6A0030E5CB /* TextTranformer.app */,
+				079253F92995A705002F0C74 /* ViewCodeAppKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07DDC96E29934A6A0030E5CB /* TextTranformer */ = {
+		079253FB2995A705002F0C74 /* ViewCodeAppKit */ = {
 			isa = PBXGroup;
 			children = (
-				07DDC96F29934A6A0030E5CB /* AppDelegate.swift */,
-				07DDC97129934A6A0030E5CB /* ViewController.swift */,
-				07DDC97329934A6D0030E5CB /* Assets.xcassets */,
-				07DDC97529934A6D0030E5CB /* Main.storyboard */,
-				07DDC97829934A6D0030E5CB /* TextTranformer.entitlements */,
+				079253FC2995A705002F0C74 /* AppDelegate.swift */,
+				079253FE2995A705002F0C74 /* ViewController.swift */,
+				079254002995A706002F0C74 /* Assets.xcassets */,
+				079254022995A706002F0C74 /* Main.storyboard */,
+				079254052995A706002F0C74 /* ViewCodeAppKit.entitlements */,
+				079254112995A8BF002F0C74 /* Fact.swift */,
+				079254132995A8DB002F0C74 /* main.swift */,
+				079254152995A8F9002F0C74 /* WebService.swift */,
 			);
-			path = TextTranformer;
+			path = ViewCodeAppKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07DDC96B29934A6A0030E5CB /* TextTranformer */ = {
+		079253F82995A705002F0C74 /* ViewCodeAppKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07DDC97B29934A6D0030E5CB /* Build configuration list for PBXNativeTarget "TextTranformer" */;
+			buildConfigurationList = 079254082995A706002F0C74 /* Build configuration list for PBXNativeTarget "ViewCodeAppKit" */;
 			buildPhases = (
-				07DDC96829934A6A0030E5CB /* Sources */,
-				07DDC96929934A6A0030E5CB /* Frameworks */,
-				07DDC96A29934A6A0030E5CB /* Resources */,
+				079253F52995A705002F0C74 /* Sources */,
+				079253F62995A705002F0C74 /* Frameworks */,
+				079253F72995A705002F0C74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TextTranformer;
-			productName = TextTranformer;
-			productReference = 07DDC96C29934A6A0030E5CB /* TextTranformer.app */;
+			name = ViewCodeAppKit;
+			productName = ViewCodeAppKit;
+			productReference = 079253F92995A705002F0C74 /* ViewCodeAppKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		07DDC96429934A6A0030E5CB /* Project object */ = {
+		079253F12995A705002F0C74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					07DDC96B29934A6A0030E5CB = {
+					079253F82995A705002F0C74 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 07DDC96729934A6A0030E5CB /* Build configuration list for PBXProject "TextTranformer" */;
+			buildConfigurationList = 079253F42995A705002F0C74 /* Build configuration list for PBXProject "ViewCodeAppKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,45 +113,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 07DDC96329934A6A0030E5CB;
-			productRefGroup = 07DDC96D29934A6A0030E5CB /* Products */;
+			mainGroup = 079253F02995A705002F0C74;
+			productRefGroup = 079253FA2995A705002F0C74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07DDC96B29934A6A0030E5CB /* TextTranformer */,
+				079253F82995A705002F0C74 /* ViewCodeAppKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07DDC96A29934A6A0030E5CB /* Resources */ = {
+		079253F72995A705002F0C74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DDC97429934A6D0030E5CB /* Assets.xcassets in Resources */,
-				07DDC97729934A6D0030E5CB /* Main.storyboard in Resources */,
+				079254012995A706002F0C74 /* Assets.xcassets in Resources */,
+				079254042995A706002F0C74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07DDC96829934A6A0030E5CB /* Sources */ = {
+		079253F52995A705002F0C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DDC97229934A6A0030E5CB /* ViewController.swift in Sources */,
-				07DDC97029934A6A0030E5CB /* AppDelegate.swift in Sources */,
+				079254162995A8F9002F0C74 /* WebService.swift in Sources */,
+				079254122995A8BF002F0C74 /* Fact.swift in Sources */,
+				079253FF2995A705002F0C74 /* ViewController.swift in Sources */,
+				079254142995A8DB002F0C74 /* main.swift in Sources */,
+				079253FD2995A705002F0C74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07DDC97529934A6D0030E5CB /* Main.storyboard */ = {
+		079254022995A706002F0C74 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07DDC97629934A6D0030E5CB /* Base */,
+				079254032995A706002F0C74 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -150,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		07DDC97929934A6D0030E5CB /* Debug */ = {
+		079254062995A706002F0C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		07DDC97A29934A6D0030E5CB /* Release */ = {
+		079254072995A706002F0C74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,18 +275,19 @@
 			};
 			name = Release;
 		};
-		07DDC97C29934A6D0030E5CB /* Debug */ = {
+		079254092995A706002F0C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TextTranformer/TextTranformer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ViewCodeAppKit/ViewCodeAppKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U6JS22SU4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -283,25 +296,26 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextTranformer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViewCodeAppKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		07DDC97D29934A6D0030E5CB /* Release */ = {
+		0792540A2995A706002F0C74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TextTranformer/TextTranformer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ViewCodeAppKit/ViewCodeAppKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U6JS22SU4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -310,7 +324,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextTranformer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViewCodeAppKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07DDC96729934A6A0030E5CB /* Build configuration list for PBXProject "TextTranformer" */ = {
+		079253F42995A705002F0C74 /* Build configuration list for PBXProject "ViewCodeAppKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07DDC97929934A6D0030E5CB /* Debug */,
-				07DDC97A29934A6D0030E5CB /* Release */,
+				079254062995A706002F0C74 /* Debug */,
+				079254072995A706002F0C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07DDC97B29934A6D0030E5CB /* Build configuration list for PBXNativeTarget "TextTranformer" */ = {
+		079254082995A706002F0C74 /* Build configuration list for PBXNativeTarget "ViewCodeAppKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07DDC97C29934A6D0030E5CB /* Debug */,
-				07DDC97D29934A6D0030E5CB /* Release */,
+				079254092995A706002F0C74 /* Debug */,
+				0792540A2995A706002F0C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 07DDC96429934A6A0030E5CB /* Project object */;
+	rootObject = 079253F12995A705002F0C74 /* Project object */;
 }
